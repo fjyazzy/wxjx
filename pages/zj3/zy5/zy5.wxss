@@ -1,0 +1,8 @@
+/* pages/zj3/zy5/zy5.wxss */
+input{
+  background:#fff;
+  height:120rpx;
+  margin:10px;
+  padding-left:8px;
+  border:solid 1px silver;
+}

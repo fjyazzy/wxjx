@@ -1,0 +1,101 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/others/index2/index",
+    "pages/others/pitems/pitems",
+    "pages/others/category/category",
+    "tools/Wxmls/wxml",
+    "tools/lyb/lyb",
+    "tools/calc/calc",
+    "tools/lxjsq/lxjsq",
+    "tools/guess/guess",
+    "tools/wxapi/wxapi",
+    "tools/table/table",
+    "pages/others/myprofile/myprofile",
+    "pages/others/mymsg/mymsg",
+    "pages/others/myfavorite/myfavorite",
+    "pages/others/setting/setting",
+    "pages/others/more/more",
+    "pages/others/myscore/myscore",
+    "pages/zj2/zy1/zy1",
+    "pages/zj2/zy2/zy2",
+    "pages/zj2/zy3/zy3",
+    "pages/zj2/zy4/zy4",
+    "pages/zj2/zy5/zy5",
+    "pages/zj2/zy6/zy6",
+    "pages/zj2/zy7/zy7",
+    "pages/zj2/zy8/zy8",
+    "pages/zj2/zy9/zy9",
+    "pages/zj2/zy10/zy10",
+    "pages/zj2/zy11/zy11",
+    "pages/zj2/zy12/zy12",
+    "pages/zj2/zy4/include/index",
+    "pages/zj2/ml/zj2",
+    "pages/zj3/ml/zj3",
+    "pages/zj4/ml/zj4",
+    "pages/zj5/ml/zj5",
+    "pages/zj3/guanyu/guanyu",
+    "pages/zj3/jiaoxue/jiaoxue",
+    "pages/zj3/keyan/keyan",
+    "pages/zj3/zixun/zixun",
+    "pages/zj3/zy2/zy2",
+    "pages/zj3/zy3/zy3",
+    "pages/zj3/zy4/zy4",
+    "pages/zj3/zy5/zy5",
+    "pages/zj3/zy6/zy6",
+    "pages/zj3/zy7/zy7",
+    "pages/zj3/zy8/zy8",
+    "pages/zj3/zy9/zy9"
+  ],
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#f00",
+    "borderStyle": "black",
+    "backgroundColor": "#fcc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_home.png",
+        "selectedIconPath": "images/icon_home_2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/zj3/jiaoxue/jiaoxue",
+        "iconPath": "images/icon_sc.png",
+        "selectedIconPath": "/images/icon_sc_2.png",
+        "text": "教学"
+      },
+      {
+        "pagePath": "pages/zj3/keyan/keyan",
+        "iconPath": "images/icon_more.png",
+        "selectedIconPath": "images/icon_more_2.png",
+        "text": "科研"
+      },
+      {
+        "pagePath": "pages/zj3/zixun/zixun",
+        "iconPath": "images/icon_msg.png",
+        "selectedIconPath": "images/icon_msg_2.png",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "pages/zj3/guanyu/guanyu",
+        "iconPath": "images/icon_user.png",
+        "selectedIconPath": "images/icon_user_2.png",
+        "text": "关于我们"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "微信开发",
+    "navigationBarTextStyle": "white"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

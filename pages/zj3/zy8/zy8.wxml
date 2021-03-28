@@ -1,0 +1,11 @@
+<!--pages/zj3/zy8/zy8.wxml-->
+<text>pages/zj3/zy8/zy8.wxml</text>
+<view clas='box'>
+  <view class='title'>模版的定义和使用</view>
+  <import src='template.wxml' />
+  <template is='student' data="{{...stu01}}" />
+  ------------------------------
+  <template is='student' data="{{...stu02}}" />
+  ------------------------------
+  <template is='student' data="{{name:'ccc',age:'20',gender:'nan'}}" />
+</view>

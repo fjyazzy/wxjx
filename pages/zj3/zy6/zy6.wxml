@@ -1,0 +1,33 @@
+<!--pages/zj3/zy6/zy6.wxml-->
+<text>pages/zj3/zy6/zy6.wxml</text>
+<view class='box'>
+  <view>绑定数组渲染</view>
+  <view wx:for='{{array}}'>
+    array[{{index}}]:{{item}}
+  </view>
+  --------------------------------
+  <view>直接数组渲染</view>
+  <view wx:for="{{['11111','22222','33333','44444']}}">
+    array[{{index}}]:{{item}}
+  </view>
+  --------------------------------
+  <view>对象渲染</view>
+  <view wx:for="{{object}}">
+    {{index}}:{{item}}
+  </view>
+  --------------------------------
+  <view>字符串渲染</view>
+  <view wx:for="1234567890abcdef" wx:for-index='i' wx:for-item='j'>
+    array[{{i}}]:{{j}}
+  </view>
+  --------------------------------
+  <view>利用blacok多节点结构块渲染</view>
+  <block wx:for="{{[1,2,3]}}">
+    <view class='view-item bc-red'>红色</view>
+    <view class='view-item bc-green'>绿色</view>
+    <view class='view-item bc-blue'>小于10</view>
+    -------------------------------------
+  </block>
+  
+
+</view>

@@ -1,0 +1,31 @@
+<!--pages/index/index.wxml-->
+<text>pages/index/index.wxml</text>
+<view class='title'>字体样式设计</view>
+<view style='font-family:"sans-serif";font-size:30px;'>
+  <view>利用style设置字体样式</view>
+  <view>字体：sans-serif;font-size:30px</view>
+</view>
+====================
+<view class='fontStyle'>
+  <view>利用class设置字体</view>
+  <view>  font-family:cursive;
+  font-size:25px;
+  font-style:italic;
+  font-weight:bold</view>
+</view>
+
+<view class="box">
+<view class="textStyle01">
+文本属性可定义外观，通过设置文本属性修改。。。。
+</view>
+====================================
+<view class="textStyle02">
+North china University of Technology(NCUT) is ....
+</view>
+</view>
+<view class="box">
+<view class="title">图片和声音</view>
+<view style="text-align:center;">
+  <image src='{{imgsrc}}' bindtap='tapCat'></image>
+</view>
+</view>

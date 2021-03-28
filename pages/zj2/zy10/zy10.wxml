@@ -1,0 +1,9 @@
+<!--pages/zy10/zy10.wxml-->
+<text>pages/zy10/zy10.wxml</text>
+<view class='box'>
+<view class='title'>随机数求和</view>
+<view>产生的随机数列为：</view>
+<view wx:for='{{rand}}' wx:key='index'>{{item}}</view>
+<view>随机数和为：{{sum}}</view>
+<button type='primaryt' bindtap='newrand'>产生新的随机数</button>
+</view>

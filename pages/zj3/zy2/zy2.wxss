@@ -1,0 +1,5 @@
+/* pages/zj3/zy2/zy2.wxss */
+view{
+font-size:18px;
+margin:10px;
+}

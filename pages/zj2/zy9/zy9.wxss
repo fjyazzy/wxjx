@@ -1,0 +1,11 @@
+/* pages/zy9/zy9.wxss */
+input{
+  background:#fff;
+  height:120rpx;
+  margin:10px;
+  padding-left:8px;
+  border:solid 1px silver;
+}
+button{
+  margin-top:20px;
+}

@@ -1,0 +1,24 @@
+<!--pages/index/index.wxml-->
+<view class='title'>微信作业列表</view>
+<view class='bg1'>
+    <view class='box1'>
+        <view>
+            <navigator  url="/pages/zj2/ml/zj2"><image src='/images/book.png' style='width:100px;height:80px;'></image></navigator>
+        </view>
+</view>
+    <view class='box2'>
+        <view>
+            <navigator  url="/pages/zj3/ml/zj3"><image src='/images/car.png' style='width:100px;height:80px;'></image></navigator>
+        </view>        
+    </view>
+    <view class='box3'>
+        <view>
+            <navigator  url="/pages/zj4/ml/zj4"><image src='/images/home.png' style='width:100px;height:80px;'></image></navigator>
+        </view>
+    </view>
+    <view class='box4'>
+        <view>
+            <navigator  url="/pages/zj5/ml/zj5"><image src='/images/home2.png' style='width:100px;height:80px;'></image></navigator>
+        </view>
+    </view>
+  </view>

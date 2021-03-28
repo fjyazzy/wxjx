@@ -1,0 +1,11 @@
+<!--pages/zj3/zy9/zy9.wxml-->
+<include src='header.wxml'></include>
+<view class='box'>
+  1231231
+3
+123
+123
+12
+3
+</view>
+<include src='footer.wxml'></include>

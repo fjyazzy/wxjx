@@ -1,0 +1,24 @@
+<!--pages/zy2/zy2.wxml-->
+<view class='box'>
+  <view class='title'>盒模型</view>
+  <view class='boxModel01'>
+    .boxModel01{width:80%;height:1
+      20px;backgr
+      ound-color:yellow;border:3px d
+      ashed #FF0
+      000;padding:20px;margin:20px;}
+  </view>
+  <view class='boxModel02'>
+    .boxModel02{width:8000;
+      padding:20px
+      ;margin:20px;}
+  </view>
+  <view class='boxModel03'>
+    .boxModel03{width:80%;heigh
+      t:120px;
+      background-color:yellow;bo
+      rder:3px d
+      ashed #FF0000;padding:20px;
+      margin:20px;}
+  </view>
+</view>

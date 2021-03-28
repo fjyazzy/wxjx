@@ -1,0 +1,11 @@
+<!--pages/zy9/zy9.wxml-->
+<text>pages/zy9/zy9.wxml</text>
+<view class='box'>
+<view class='title'>利用循环语句求和</view>
+<view>
+<input placeholder="请输入起点数据" type='number' bindblur='startnum' />
+<input placeholder="请输入终点数据" type='number' bindblur='endnum' />
+</view>
+<view>两个数之间的和位：{{sum}}</view>
+<button type='primaryt' bindtap='calc'>求和</button>
+</view>

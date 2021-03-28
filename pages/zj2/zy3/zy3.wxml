@@ -1,0 +1,30 @@
+<!--pages/zy3/zy3.wxml-->
+<view class='box'>
+  <view class='title'>页面布局实例</view>
+  <!-- 三栏水平-->
+  <view style='display:flex;text-align:center;line-height:50rpx;'>
+    <view style='background-color:red;flex-grow:1;'>1</view>
+    <view style='background-color:green;flex-grow:1;'>2</view>
+    <view style='background-color:blue;flex-grow:1;'>3</view>
+  </view>
+  ---------------------------------------
+ <!-- 左右混合-->
+ <view style='display:flex;height:300rpx;text-align:center;'>
+    <view style='background-color:red;width:250rpx;line-height:300rpx'>1</view>
+    <view style='display:flex;flex-direction:column;flex-grow:1;line-height:150rpx;'>
+      <view style='background-color:green;flex-grow:1;'>2</view>
+      <view style='background-color:blue;flex-grow:1;'>3</view>
+    </view>
+  </view>
+  ---------------------------------------
+<!-- 上下混合-->
+<view style='display:flex;flex-direction:column;line-height:300rpx;text-align:center;'>
+    <view style='background-color:red;height:100rpx;line-height:100rpx'>1</view>
+    <view style='display:flex;flex-grow:1;flex-direction:row'>
+      <view style='background-color:green;flex-grow:1;'>2</view>
+      <view style='background-color:blue;flex-grow:1;'>3</view>
+    </view>
+  </view>
+
+
+</view>

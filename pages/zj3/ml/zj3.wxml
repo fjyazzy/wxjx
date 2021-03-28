@@ -1,0 +1,11 @@
+<!--pages/zj3/zj3.wxml-->
+<text>pages/zj3/zj3.wxml</text>
+<view class='title'>第三章 微信作业列表</view>
+<view><navigator  url="/pages/zj3/zy2/zy2">1.数据绑定示例</navigator></view>
+<view><navigator  url="/pages/zj3/zy3/zy3">2.变量函数作用域示例</navigator></view>
+<view><navigator  url="/pages/zj3/zy4/zy4">3.条件渲染示例</navigator></view>
+<view><navigator  url="/pages/zj3/zy5/zy5">4.成绩等级计算器</navigator></view>
+<view><navigator  url="/pages/zj3/zy6/zy6">5.列表渲染</navigator></view>
+<view><navigator  url="/pages/zj3/zy7/zy7">6.九九乘法表</navigator></view>
+<view><navigator  url="/pages/zj3/zy8/zy8">7.模版定义和使用</navigator></view>
+<view><navigator  url="/pages/zj3/zy9/zy9">9.利用Include应用文件</navigator></view>

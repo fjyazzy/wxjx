@@ -1,0 +1,7 @@
+<!--pages/zy4/zy4.wxml-->
+<text>pages/zy4/zy4.wxml</text>
+<navigator url='include/index'>
+<view class='waihuang'>
+  <icon type='success' class='myleft'></icon><view class='mycenter'>Includes</view><image src='/images/icon_buy.png' class='myright'></image>
+</view>
+</navigator>

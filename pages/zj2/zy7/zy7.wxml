@@ -1,0 +1,7 @@
+<!--pages/zy7/zy7.wxml-->
+<text>pages/zy7/zy7.wxml</text>
+<view class='box'>
+  <view class='title'>条件语句和数学函数</view>
+  <view><input placeholder='请输入x的数值'  type="digit" bindblur="calc" /></view>
+  <view>计算出的Y数值为:{{y}}</view>
+</view>

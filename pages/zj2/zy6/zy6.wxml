@@ -1,0 +1,7 @@
+<!--pages/zy6/zy6.wxml-->
+<text>pages/zy6/zy6.wxml</text>
+<view class='box'>
+  <view class='title'>摄氏温度转华式温度</view>
+  <view><input placeholder='请输入摄氏温度' type="digit" bindblur="calc" /></view>
+  <view>华式温度为:{{F}}</view>
+</view>

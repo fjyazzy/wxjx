@@ -1,0 +1,9 @@
+/* pages/zj3/zy7/zy7.wxss */
+.con{
+  font-size:14px;
+  margin:10px;
+}
+.inline{
+  display:inline-block;
+  width:65px;
+}

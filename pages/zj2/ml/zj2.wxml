@@ -1,0 +1,16 @@
+<!--pages/zj2/zj2.wxml-->
+<text>pages/zj2/zj2.wxml</text>
+<!--pages/index/index.wxml-->
+<view class='title'>第二章 微信作业列表</view>
+<view><navigator  url="/pages/zj2/zy1/zy1">1.作业一：文本、字体、图片和声音</navigator></view>
+<view><navigator  url="/pages/zj2/zy2/zy2">2.作业二：盒模型</navigator></view>
+<view><navigator  url="/pages/zj2/zy3/zy3">3.作业三：Flex弹性盒模型</navigator></view>
+<view><navigator  url="/pages/zj2/zy4/zy4">4.作业四：导航和布局</navigator></view>
+<view><navigator  url="/pages/zj2/zy5/zy5">5.作业五：Float页面布局</navigator></view>
+<view><navigator  url="/pages/zj2/zy6/zy6">6.作业六：摄氏温度转华式温度</navigator></view>
+<view><navigator  url="/pages/zj2/zy7/zy7">7.作业七：条件语句和数学函数</navigator></view>
+<view><navigator  url="/pages/zj2/zy8/zy8">8.作业八：成绩计算机器</navigator></view>
+<view><navigator  url="/pages/zj2/zy9/zy9">9.作业九：循环求和计算器</navigator></view>
+<view><navigator  url="/pages/zj2/zy10/zy10">10.作业十：随机数求和</navigator></view>
+<view><navigator  url="/pages/zj2/zy11/zy11">11.作业十一：计时器</navigator></view>
+<view><navigator  url="/pages/zj2/zy12/zy12">12.作业十二：自动随机变化的三色旗</navigator></view>

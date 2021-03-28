@@ -1,0 +1,5 @@
+/* pages/zy7/zy7.wxss */
+input{
+  margin:20px;
+  border-bottom:1px solid blue;
+}
