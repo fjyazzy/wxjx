@@ -1,24 +1,45 @@
 <!--pages/index/index.wxml-->
-<view class='title'>微信作业列表</view>
-<view class='bg1'>
-    <view class='box1'>
-        <view>
-            <navigator  url="/pages/zj2/ml/zj2"><image src='/images/book.png' style='width:100px;height:80px;'></image></navigator>
-        </view>
+<include src='../../components/header.wxml'></include>
+<view style='display:flex;height:360rpx;text-align:center;'>
+    <view style='background-color:red;width:318px;line-height:360rpx'>
+        <navigator  url="/pages/zj3/guanyu/guanyu">
+                <image src='/images/home.png' style='width:318px;height:360rpx;'></image>
+        </navigator>
+    </view>   
 </view>
-    <view class='box2'>
-        <view>
-            <navigator  url="/pages/zj3/ml/zj3"><image src='/images/car.png' style='width:100px;height:80px;'></image></navigator>
-        </view>        
+<view style='display:flex;text-align:center;line-height:50rpx;'>
+    <view style='background-color:red;flex-grow:1;margin:5px;'>
+        <navigator  url="/pages/zj2/ml/zj2">
+                <image src='/images/book.png' style='width:60px;height:60px;'></image>
+        </navigator>
+            <text class='textStyle01'>编程基础</text>
     </view>
-    <view class='box3'>
-        <view>
-            <navigator  url="/pages/zj4/ml/zj4"><image src='/images/home.png' style='width:100px;height:80px;'></image></navigator>
-        </view>
+    <view style='background-color:green;flex-grow:1;margin:5px;'>
+        <navigator  url="/pages/zj3/ml/zj3">
+                <image src='/images/car.png' style='width:60px;height:60px;'></image>
+            </navigator>
+            <text class='textStyle01'>结构框架</text>
     </view>
-    <view class='box4'>
-        <view>
-            <navigator  url="/pages/zj5/ml/zj5"><image src='/images/home2.png' style='width:100px;height:80px;'></image></navigator>
-        </view>
+    <view style='background-color:blue;flex-grow:1;margin:5px;'>
+        <navigator  url="/pages/zj4/ml/zj4">
+                <image src='/images/home.png' style='width:60px;height:60px;'></image>
+            </navigator>
+            <text class='textStyle01'>组件</text>
+    </view>
+
+    <view style='background-color:yellow;flex-grow:1;margin:5px;'>
+        <navigator  url="/pages/zj5/ml/zj5">
+                <image src='/images/home2.png' style='width:60px;height:60px;'></image>
+            </navigator>  
+            <text class='textStyle01'>程序API</text>      
     </view>
   </view>
+  <view style='display:flex;height:360rpx;text-align:center;'>
+    <view style='background-color:#ecec34;width:318px;'>
+    <view class='h1'>最新更新</view>
+    <view wx:for="{{newlist}}" wx:key='i' >
+        <text class='textStyle02'>newlist[{{index}}]:{{item}}</text>
+    </view>
+    </view>   
+</view>
+  <include src='../../components/footer.wxml'></include>

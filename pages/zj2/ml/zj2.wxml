@@ -1,6 +1,5 @@
 <!--pages/zj2/zj2.wxml-->
-<text>pages/zj2/zj2.wxml</text>
-<!--pages/index/index.wxml-->
+<include src='../../../components/header.wxml'></include>
 <view class='title'>第二章 微信作业列表</view>
 <view><navigator  url="/pages/zj2/zy1/zy1">1.作业一：文本、字体、图片和声音</navigator></view>
 <view><navigator  url="/pages/zj2/zy2/zy2">2.作业二：盒模型</navigator></view>
@@ -14,3 +13,4 @@
 <view><navigator  url="/pages/zj2/zy10/zy10">10.作业十：随机数求和</navigator></view>
 <view><navigator  url="/pages/zj2/zy11/zy11">11.作业十一：计时器</navigator></view>
 <view><navigator  url="/pages/zj2/zy12/zy12">12.作业十二：自动随机变化的三色旗</navigator></view>
+<include src='../../../components/footer.wxml'></include>

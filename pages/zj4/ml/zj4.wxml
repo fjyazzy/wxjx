@@ -1,2 +1,8 @@
 <!--pages/zj4/zj4.wxml-->
-<text>pages/zj4/zj4.wxml</text>
+<include src='../../../components/header.wxml'></include>
+<view class='title'>第四章 微信作业列表</view>
+<view><navigator  url="/pages/zj4/zy1/zy1">1.货币兑换</navigator></view>
+<view><navigator  url="/pages/zj4/zy2/zy2">2.计算三角形面积</navigator></view>
+<view><navigator  url="/pages/zj4/zy3/zy3">3.设置字体大小和样式</navigator></view>
+<view><navigator  url="/pages/zj4/zy4/zy4">4.滑动条和颜色</navigator></view>
+<include src='../../../components/footer.wxml'></include>

@@ -1,11 +1,15 @@
 <!--pages/zj3/zy9/zy9.wxml-->
-<include src='header.wxml'></include>
+<include src='../../../components/header.wxml'></include>
 <view class='box'>
   1231231
 3
 123
-123
+123ewghh1wh1weh1w12wwrwrwerw
+werwe
+rw
+rw
+er
 12
 3
 </view>
-<include src='footer.wxml'></include>
+<include src='../../../components/footer.wxml'></include>

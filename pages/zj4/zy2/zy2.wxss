@@ -1,0 +1,11 @@
+/* pages/zj4/zy2/zy2.wxss */
+input{
+  border-bottom:2px solid blue;
+  margin:10px 0;
+  font-size:25px;
+  color:red;
+  padding:15px;
+}
+button,text,input{
+  font-size:25px;
+}

@@ -1,50 +1,75 @@
-// pages/index/index.js
+// pages/zj4/zy2/zy2.js
 Page({
+  clear:function(){
+    this.setData({
+      a:'',
+      b:'',
+      c:'',
+      result:''
+    })
+  },
+  formsubmit:function(e){
+    var a=parseFloat(e.detail.value.a);
+    var b=parseFloat(e.detail.value.b);
+    var c=parseFloat(e.detail.value.c);
+    var area;
+    if(a+b<=c||a+c<=b||b+c<=a){
+      wx.showToast({
+        title:'三角形的两边之和小于第三边',
+        icon:'none',
+        duration:2000
+      });
+      this.clear();
+      return;
+    }
+    else{
+      var s=(a+b+c)/2;
+      area=Math.sqrt(s*(s-a)*(s-b)*(s-c))
+    };
+    this.setData({
+      result:area
+    });
+  },
   /**
    * 页面的初始数据
    */
   data: {
-       imgsrc:"/images/book.png",
-       newlist:['aaaaaaaaaa','bbbbbbbbbb','cccccccc']
+
   },
-  tapCat:function(){
-    let audio=wx.createInnerAudioContext()
-    audio.src="/audios/meow.mp3"
-    audio.play()
- },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log('index.js-----onLoad --页面加载')
+
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    console.log('index.js-----onReady--监听页面初次渲染完成')
+
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    console.log('index.js-----onShow--监听页面显示')
+
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    console.log('index.js-----onHide--监听页面隐藏')
+
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    console.log('index.js-----onUnload--监听页面卸载')
+
   },
 
   /**

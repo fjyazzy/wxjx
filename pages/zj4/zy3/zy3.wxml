@@ -1,0 +1,18 @@
+<!--pages/zj4/zy3/zy3.wxml-->
+<text>pages/zj4/zy3/zy3.wxml</text>
+<view class='box'>
+<view class='title'>修改字体的样式和大小</view>
+<view style='font-weight:{{mybold}};font-style:{{myitalic}};text-decoration:{{myunderline}};font-size:{{myfontsize}}'>
+福建水利电力职业技术学院
+</view>
+<checkbox-group bindchange='checkboxchange'>
+  <checkbox value='isBold'>加粗</checkbox>
+  <checkbox value='isItalic'>倾斜</checkbox>
+  <checkbox value='isUnderline'>下划线</checkbox>
+</checkbox-group>
+<radio-group bindchange='radiochange'>
+<radio value='15px'>15px</radio>
+<radio value='25px' checked='true'>25px</radio>
+<radio value='35px'>35px</radio>
+</radio-group>
+</view>

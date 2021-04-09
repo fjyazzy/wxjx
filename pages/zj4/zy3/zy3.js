@@ -1,50 +1,75 @@
-// pages/index/index.js
+// pages/zj4/zy3/zy3.js
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-       imgsrc:"/images/book.png",
-       newlist:['aaaaaaaaaa','bbbbbbbbbb','cccccccc']
+    myfontsize:'25px'
   },
-  tapCat:function(){
-    let audio=wx.createInnerAudioContext()
-    audio.src="/audios/meow.mp3"
-    audio.play()
- },
+checkboxchange:function(e){
+var text=[];
+var mybold1='';
+var myitalic1='';
+var myunderline1='';
+text=e.detail.value;
+for (var i=0;i<text.length;i++){
+  if(text[i]=='isBold'){
+    mybold1='bold';
+  }
+  if(text[i]=='isItalic'){
+    myitalic1='italic';
+  }
+  if(text[i]=='isUnderline'){
+    myunderline1='underline';
+  }   
+}
+this.setData({
+  mybold:mybold1,
+  myitalic:myitalic1,
+  myunderline:myunderline1,
+}); 
+console.log(text[0]);
+},
+radiochange:function(e){
+  this.setData({
+    myfontsize:e.detail.value
+  })
+},
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log('index.js-----onLoad --页面加载')
+
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    console.log('index.js-----onReady--监听页面初次渲染完成')
+
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    console.log('index.js-----onShow--监听页面显示')
+
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    console.log('index.js-----onHide--监听页面隐藏')
+
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    console.log('index.js-----onUnload--监听页面卸载')
+
   },
 
   /**

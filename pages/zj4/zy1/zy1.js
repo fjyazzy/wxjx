@@ -1,50 +1,67 @@
-// pages/index/index.js
+// pages/zj4/zy1/zy1.js
+var C;
 Page({
+   calc:function(e){
+     C=parseInt(e.detail.value.cels);
+     this.setData({
+      M:(C/6.8801).toFixed(4),
+      Y:(C/8.7873).toFixed(4),
+      G:(C/0.8805).toFixed(4),
+      O:(C/7.8234).toFixed(4),
+      H:(C/0.0061).toFixed(4),
+      R:(C/0.0610).toFixed(4),
+     })
+   },
+   reset:function(){
+       this.setData({
+        M:'',
+        Y:'',
+        G:'',
+        O:'',
+        H:'',
+        R:'',         
+       })
+  },
   /**
    * 页面的初始数据
    */
   data: {
-       imgsrc:"/images/book.png",
-       newlist:['aaaaaaaaaa','bbbbbbbbbb','cccccccc']
+
   },
-  tapCat:function(){
-    let audio=wx.createInnerAudioContext()
-    audio.src="/audios/meow.mp3"
-    audio.play()
- },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log('index.js-----onLoad --页面加载')
+
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    console.log('index.js-----onReady--监听页面初次渲染完成')
+
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    console.log('index.js-----onShow--监听页面显示')
+
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    console.log('index.js-----onHide--监听页面隐藏')
+
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    console.log('index.js-----onUnload--监听页面卸载')
+
   },
 
   /**

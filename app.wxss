@@ -9,8 +9,6 @@
   padding:20rpx;
   border:1px solid silver;
 }
-
-
 .container {
   height: 100%;
   display: flex;
@@ -20,18 +18,16 @@
   box-sizing: border-box;
   margin-bottom: 30rpx;
 }
-
 .h1{
   color:#fc7557;
   font-size:x-large;
   font-weight:bold;
-  margin:10px;
+  margin:3px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .h2{
   color:#666;
   font-size:small;
@@ -41,9 +37,26 @@
   justify-content: center;
   align-items: center;
 }
-
 .itemtxt{
   color:#666;
   font-size:medium;
   margin:20px;
+}
+.header{
+  margin:20rpx;
+  color:blue;
+  font-size:22px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+.footer{
+  margin:1rpx;
+  font-size:12px;
+  text-align:center;
+  width: 100%;
+  position: fixed;
+  bottom:-80px;
+  display: flex;
+  justify-content: center;
 }

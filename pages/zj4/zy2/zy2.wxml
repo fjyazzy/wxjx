@@ -1,0 +1,13 @@
+<!--pages/zj4/zy2/zy2.wxml-->
+<text>pages/zj4/zy2/zy2.wxml</text>
+<view class='box'>
+  <view class='title'>三角形面积计算器</view>
+  <form bindsubmit='formsubmit'>
+    输入三角形的三条边长:
+    <input tupe='digit' placeholder="第一条边长" name='a' value='{{a}}' />
+    <input tupe='digit' placeholder="第er条边长" name='b' value='{{b}}' />
+    <input tupe='digit' placeholder="第san条边长" name='c' value='{{c}}' />
+    <button form-type='submit'>计算</button>
+  </form>
+  <text>三角形的面积为：{{result}}</text>
+</view>

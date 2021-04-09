@@ -1,19 +1,1 @@
 /* pages/zj3/zy9/zy9.wxss */
-.header{
-  margin:20rpx;
-  color:blue;
-  font-size:22px;
-  display:flex;
-  flex-direction:row;
-  justify-content:space-evenly;
-}
-.footer{
-  margin:5rpx;
-  font-size:12px;
-  text-align:center;
-  width: 100%;
-  position: fixed;
-  bottom:0px;
-  display: flex;
-  justify-content: center;
-}

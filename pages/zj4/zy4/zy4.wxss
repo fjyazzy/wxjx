@@ -1,0 +1,5 @@
+/* pages/zj4/zy4/zy4.wxss */
+.colorArea{
+  width:295px;
+  height:100px;
+}

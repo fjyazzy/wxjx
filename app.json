@@ -46,7 +46,11 @@
     "pages/zj3/zy6/zy6",
     "pages/zj3/zy7/zy7",
     "pages/zj3/zy8/zy8",
-    "pages/zj3/zy9/zy9"
+    "pages/zj3/zy9/zy9",
+    "pages/zj4/zy1/zy1",
+    "pages/zj4/zy2/zy2",
+    "pages/zj4/zy3/zy3",
+    "pages/zj4/zy4/zy4"
   ],
   "tabBar": {
     "color": "#000",
