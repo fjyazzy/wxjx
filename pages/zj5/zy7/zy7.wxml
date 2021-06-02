@@ -1,0 +1,26 @@
+<!--pages/zj5/zy7/zy7.wxml-->
+<view class='box'>
+<view class='title'>自由绘图</view>
+<view class='style01'>
+    <canvas canvas-id='mycanvas'
+    disable-scroll="true"
+    bindtouchstart="touchstart"
+    bindtouchmove="touchmove"
+    bindtouchend="touchend"
+    ></canvas>
+  </view>
+  <view class='toolstyle01'>
+    <view class='toolstyle02'>
+      <view class='toolstyle' hover-class='changebc' bindtap='penselect' data-param='5'>钢笔</view>
+      <view class='toolstyle' hover-class='changebc' bindtap='penselect' data-param='15'>毛笔</view>
+    </view>
+    <view class='toolstyle02'>
+      <view class='toolstyle' hover-class='changebc' bindtap='colorselect' data-param='red'>红色</view>
+      <view class='toolstyle' hover-class='changebc' bindtap='colorselect' data-param='blue'>蓝色</view>
+    </view>
+    <view class='toolstyle02'>
+      <view class='toolstyle' hover-class='changebc' bindtap='clear' >清除</view>
+      <view class='toolstyle' hover-class='changebc' bindtap='clearall' >清屏</view>
+    </view>
+  </view>
+</view>

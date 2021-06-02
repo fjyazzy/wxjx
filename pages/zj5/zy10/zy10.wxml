@@ -1,0 +1,12 @@
+<!--pages/zj5/zy10/zy10.wxml-->
+<view class='box'>
+<view class='title'>位置和地图</view>
+<view>
+  <map id='mymap' latitude="{{latitude}}" longitude="{{longitude}}"
+  markers="{{markers}}" show-location></map>
+</view>
+<view>
+  <button type='primary' bindtap='chooselocation'>选择位置</button>
+  <button type='primary' bindtap='openlocation'>打开位置</button>
+</view>
+</view>

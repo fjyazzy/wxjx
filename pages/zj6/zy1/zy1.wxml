@@ -1,0 +1,18 @@
+<!--pages/zj6/zy1/zy1.wxml-->
+<view class='box'>
+  <view class='title'>获取微信用户的OpenID</view>
+  <block wx:if="{{!hasuserinfo}}">
+    <button wx:if="{{caniuse}}" open-type='getUserInfo' bindgetuserinfo="getuserinfo">获取登录用户信息</button>
+    <text wx:else>请升级手机微信版本</text>
+  </block>
+  <view wx:else class='userinfo'>
+    <image bindtap='getdetail' class='userinfo-avatar' src='{{userinfo.avatarUrl}}' mode='cover'></image>
+    <text class='userinfo-nickname'>{{userinfo.nickname}}</text>
+  </view>
+  <view class='user-openid'>
+    <text>{{openID}}</text>
+  </view>
+  <view class='user-detail' wx:if='{{hasuserinfo}}'>
+    <text>{{detail}}</text>
+  </view>
+</view>

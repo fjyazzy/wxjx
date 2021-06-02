@@ -1,0 +1,20 @@
+<!--pages/zj5/zy3/zy3.wxml-->
+<view class='box'>
+<view class='title'>基本绘图</view>
+<view><canvas canvas-id='myCanvas' class='mycanvas'></canvas></view>
+</view>
+<view class='btnlayout'>
+<button type='primary' bindtap='clear'>清除</button>
+<button type='primary' bindtap='drawdot'>画点</button>
+<button type='primary' bindtap='drawcircle'>划圆</button>
+</view>
+<view class='btnlayout'>
+<button type='primary' bindtap='drawdash'>划虚线</button>
+<button type='primary' bindtap='capandjoin'>端点交点</button>
+<button type='primary' bindtap='drawtext'>画字</button>
+</view>
+<view class='btnlayout'>
+<button type='primary' bindtap='circlegrad'>圆形渐变</button>
+<button type='primary' bindtap='shadowrect'>阴影矩形</button>
+<button type='primary' bindtap='translucent'>半透明</button>
+</view>

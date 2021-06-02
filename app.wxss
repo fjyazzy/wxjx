@@ -44,7 +44,7 @@
 }
 .header{
   margin:20rpx;
-  color:blue;
+  color:#ff6666;
   font-size:22px;
   display:flex;
   flex-direction:row;
@@ -59,4 +59,11 @@
   bottom:-80px;
   display: flex;
   justify-content: center;
+  color:#ff6666;
+}
+input{
+  width:180px;
+  height:30px;
+  border-bottom:2px solid blue;
+  float:left;
 }

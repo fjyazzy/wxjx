@@ -1,0 +1,7 @@
+<!--pages/zj6/zy2/zy2.wxml-->
+<text>pages/zj6/zy2/zy2.wxml</text>
+<view class="uploader">
+    <view class="uploader-text" bindtap="doUpload">
+      <text>上传图片</text>
+    </view>
+  </view>

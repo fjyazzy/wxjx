@@ -1,0 +1,13 @@
+<!--pages/zj5/zy16/zy16.wxml-->
+<text>pages/zj5/zy16/zy16.wxml</text>
+<view class='box'>
+<view class='title'>屏幕亮度、剪贴板和振动</view>
+<view>设置屏幕亮度</view>
+<slider min='0' max='1' value='0.5' step='0.1' show-value='true'
+ bindchange='setscreenbrightness'></slider>
+ <button type='primary' bindtap='getscrennbrightness'>查询亮度</button>
+<view>当前亮度为：{{brightness}}</view>
+<switch bindchange='setkeepscreenon'>保持亮度</switch>
+<button type='primary' bindtap='copybrightness'>复制亮度</button>
+<view>复制的亮度为：{{copybrightness}}</view>
+</view>

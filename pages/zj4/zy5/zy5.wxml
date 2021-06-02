@@ -1,0 +1,27 @@
+<!--pages/zj4/zy5/zy5.wxml-->
+<text>pages/zj4/zy5/zy5.wxml</text>
+<view class='box'>
+  <view class='title'>swipper and switch</view>
+  <swiper 
+  indicator-dots="{{indicatordots}}" autoplay="{{autoplay}}"
+  circular="{{circulor}}" vertical="{{vertical}}"
+  interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{background}}" wx:key="index">
+  <swiper-item>
+  <view class="{{item}}"></view>
+  </swiper-item>
+  </block>
+  </swiper>
+  <view class='waikuang'><text class='myleft'>指示点</text>
+  <switch checked="{{indicatordots}}"  bindchange="changeindicatordots"></switch>
+  </view>
+  <view class='waikuang'><text class='myleft'>自动播放</text>
+  <switch checked="{{autoplay}}"  bindchange="changeautoplay"></switch>
+  </view>
+  <view class='waikuang'><text class='myleft'>滑动</text>
+  <switch checked="{{circular}}"  bindchange="changecircular"></switch>
+  </view>
+  <view class='waikuang'><text class='myleft'>竖向</text>
+  <switch checked="{{vertical}}"  bindchange="changevercital"></switch>
+  </view>
+</view>

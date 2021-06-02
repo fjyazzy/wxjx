@@ -1,0 +1,24 @@
+<!--pages/zj5/zy8/zy8.wxml-->
+<view class='box'>
+  <view class='title'>动画演示</view>
+  <view class='animation-area'>
+    <view class='animation-element' animation="{{animation}}"></view>
+  </view>
+  <view class='style02'>
+    <button type='primary' bindtap='rotate' style='width:24%;'>旋转</button>
+    <button type='primary' bindtap='scale'  style='width:24%;'>缩放</button>
+    <button type='primary' bindtap='translate' style='width:24%;'>移动</button>
+    <button type='primary' bindtap='skew' style='width:24%;'>倾斜</button>
+  </view>
+  <view class='style02'>
+    <button type='primary' bindtap='rotateandscale' style='width:48%;'>旋转并缩放</button>
+    <button type='primary' bindtap='rotatethenscale'  style='width:48%;'>选择后缩放</button>
+  </view>
+  <view class='style02'>
+    <button type='primary' bindtap='all' style='width:48%;'>同时展示全部</button>
+    <button type='primary' bindtap='allinqueue'  style='width:48%;'>顺序展示全部</button>
+  </view> 
+  <view class='style02'>
+    <button type='primary' bindtap='reset' style='width:96%;'>还原</button>
+  </view> 
+</view>

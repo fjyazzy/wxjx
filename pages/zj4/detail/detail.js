@@ -1,38 +1,50 @@
-// pages/pitems/pitems.js
-const app = getApp()
+// pages/zj4/detail/detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    nrlist: {},
+array:[
+  '第一场 15:00',
+  '第二场 16:00',
+  '第三场 17:00',
+]
   },
+formsubmit:function(e){
+  var name=e.detail.value.name;
+  var id=e.detail.value.id;
+  var time=e.detail.value.time;
+  wx.showModal({
+    content:e.detail.value.name+"同学，你的学号是："+id+"你选择的场次是"+this.data.array[time]+",请确认",
+    success:function(res){
+      if(res.confirm){
+          wx.showModal({
+            title:'信息确认',
+            content:'你的考场信息已经确认'
+          })
+          wx.navigateTo({
+            url: '../zy10/zy10',
+          })
+      }else{
+        console.log('cancle')
+      }
+    }
+  })
+},
+choosetime:function(e){
+   var index=e.detail.value
+   this.setData({
+     index:index
+   })
+},
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.getData(options);
-    console.log("pageno:" + options.id)
+
   },
-  getData: function (options) {
-    var that = this;
-    wx.request({
-      url: app.globalData.usite + '/cmsv1/apis/getPage.ashx?pageno=' + options.id,
-      header: { 'content-type': 'applciation/json;charset=UTF-8' },
-      method: 'GET',
-      success: function (res) {
-        var str2 = res.data.substr(1, res.data.length - 2)
-        console.log(str2);
-        that.setData({
-          nrlist: JSON.parse(str2),
-        })
-      },
-      fail: function (err) {
-        console.log(err)
-      }
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

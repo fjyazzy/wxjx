@@ -1,0 +1,8 @@
+<!--pages/zj5/zy6/zy6.wxml-->
+<text>pages/zj5/zy6/zy6.wxml</text>
+<view class='box'>
+  <view class='title'>绘制正炫曲线</view>
+  <view class='style01'>
+    <canvas canvas-id='mycanvas'></canvas>
+  </view>
+  </view>

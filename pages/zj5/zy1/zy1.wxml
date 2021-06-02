@@ -1,0 +1,6 @@
+<!--pages/zj5/zy1/zy1.wxml-->
+<text>pages/zj5/zy1/zy1.wxml</text>
+<view class='box'>
+  <view class='title'>变脸游戏</view>
+  <view><image src='{{imgarr[index]}}' bindtap='changeface' mode='widthFix'></image></view>
+</view>

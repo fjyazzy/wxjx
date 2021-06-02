@@ -1,0 +1,35 @@
+<!--pages/zj5/zy14/zy14.wxml-->
+<text>pages/zj5/zy14/zy14.wxml</text>
+<view class='box'>
+<view class='title'>传感器</view>
+<view>
+  <button type='primary' bindtap='startcompass'>启动罗盘监听</button>
+  <button type='primary' bindtap='stopcompass'>停止罗盘监听</button>
+</view>
+<view class='txtlayout'>
+  <text>罗盘方位角:{{rescompass.direction}}{{xxx}}</text>
+  <text>罗盘精度:{{rescompass.accuracy}}</text> 
+</view>
+
+<view>
+  <button type='primary' bindtap='startacc'>启动加速计</button>
+  <button type='primary' bindtap='stopacc'>停止加速计</button>
+</view>
+<view class='txtlayout'>
+  <text>x轴加速度:{{resacc.x}}</text>
+  <text>y轴加速度:{{resacc.y}}</text>
+  <text>z轴加速度:{{resacc.z}}</text>
+</view>
+
+<view>
+  <button type='primary' bindtap='startgyroscope'>启动陀螺仪</button>
+  <button type='primary' bindtap='stopgyroscope'>停止陀螺仪</button>
+</view>
+<view class='txtlayout'>
+  <text>x轴加速度:{{resgyroscope.x}}</text>
+  <text>y轴加速度:{{resgyroscope.y}}</text>
+  <text>z轴加速度:{{resgyroscope.z}}</text>
+</view>
+
+</view>
+

@@ -1,0 +1,20 @@
+<!--pages/zj5/zy15/zy15.wxml-->
+<text>pages/zj5/zy15/zy15.wxml</text>
+<view class='box'>
+<view class='title'>扫码和打电话</view>
+<button type='primary' bindtap='scancode'>开始扫码</button>
+<view>
+  <view>字符集:{{rescode.charSet}}</view>
+  <view>扫码类型:{{rescode.scanType}}</view>
+  <view>扫码结果:{{rescode.result}}</view>
+</view>
+<view>
+  <input placeholder='请输入联系人姓名' bindblur='inputname' />
+  <input placeholder='请输入联系人电话' bindblur='inputphone' type='number' />
+</view>
+<view>
+  <button type='primary' bindtap='makecall' >拨打电话</button>
+  <button type='primary' bindtap='addperson'>添加联系人</button>
+</view>
+
+</view>

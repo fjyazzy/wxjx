@@ -1,0 +1,7 @@
+/* pages/zj5/zy12/zy12.wxss */
+.fileinfo{
+  margin:10rpx 0;
+  background-color:#f8f8f8;
+  text-align:left;
+  border:1px solid seagreen;
+}

@@ -1,0 +1,12 @@
+/* pages/zj5/zy3/zy3.wxss */
+canvas{
+  width:100%;
+  height:340px;
+  background-color:cornflowerblue;
+}
+.btnlayout{
+  display:flex;
+  flex-direction:row;
+  margin:10px;
+  justify-content:space-around;
+}

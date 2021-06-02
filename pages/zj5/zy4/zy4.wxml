@@ -1,0 +1,18 @@
+<!--pages/zj5/zy4/zy4.wxml-->
+<view class='box'>
+<view class='title'>参数绘图</view>
+<view class='style01'>
+<canvas canvas-id='mycanvas'></canvas>
+</view>
+<view>
+<form bindsubmit='drawcircle' bindreset='clear'>
+<input name='x' placeholder='请输入圆心X坐标' />
+<input name='y' placeholder='请输入圆心y坐标' />
+<input name='rad' placeholder='请输入半径' />
+<view class='style02'>
+<button type='primary' form-type='submit'>画圆</button>
+<button type='primary' form-type='reset'>清空</button>
+</view>
+</form>
+</view>
+</view>

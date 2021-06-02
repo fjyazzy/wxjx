@@ -1,0 +1,11 @@
+/* pages/zj4/zy8/zy8.wxss */
+button{
+  margin-top:50rpx;
+  width:500rpx;
+}
+.btnlayout{
+  margin-top:50rpx;
+  display:flex;
+ flex-direction:column;
+ align-items:center;
+}

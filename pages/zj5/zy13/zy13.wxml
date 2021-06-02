@@ -1,0 +1,14 @@
+<!--pages/zj5/zy13/zy13.wxml-->
+<text>pages/zj5/zy13/zy13.wxml</text>
+<view class='box'>
+<view class='title'>网络状态</view>
+<view>当前网络状态是：{{status}}</view>
+<button type='primary' bindtap='wifistatus'>wifi状态</button>
+<view>
+  <view>ssid:{{res.SSID}}{{xxx}}</view>
+  <view>bssid:{{res.BSSID}}</view>
+  <view>secure:{{res.secure}}</view>
+  <view>singalStrength:{{res.singalStrength}}</view>
+</view>
+</view>
+

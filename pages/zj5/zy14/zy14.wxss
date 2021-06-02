@@ -1,0 +1,7 @@
+/* pages/zj5/zy14/zy14.wxss */
+.txtlayout{
+  display:flex;
+  flex-direction:column;
+  margin:5px 0rpx;
+  border:1px solid burlywood;
+}

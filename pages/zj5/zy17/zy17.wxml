@@ -1,0 +1,41 @@
+<!--pages/zj5/zy17/zy17.wxml-->
+<text>pages/zj5/zy17/zy17.wxml</text>
+<view class='box'>
+<view class='title'>{{msg}}获取设备信息</view>
+<view class='border' hidden='{{hide1}}'>
+  <text>1：{{model}} |</text>
+  <text>2：{{pixelratio}} |</text>
+  <text>3：{{screenwidth}} |</text>
+  <text>4：{{screenheight}} |</text>
+  <text>5：{{windowwidth}} |</text>
+  <text>6：{{windowheight}} |</text>
+  <text>7：{{language}} |</text>
+  <text>8：{{version}} |</text>
+  <text>9：{{system}} |</text>
+  <text>10：{{platform}} |</text>
+  <text>11：{{sdkversion}} |</text>
+</view>
+
+<view class='border' hidden='{{hide2}}'>
+  <text>1：{{model}} |</text>
+  <text>2：{{pixelratio}} |</text>
+  <text>3：{{screenwidth}} |</text>
+  <text>4：{{screenheight}} |</text>
+  <text>5：{{windowwidth}} |</text>
+  <text>6：{{windowheight}} |</text>
+  <text>7：{{language}} |</text>
+  <text>8：{{version}} |</text>
+  <text>9：{{system}} |</text>
+  <text>10：{{platform}} |</text>
+  <text>11：{{sdkversion}} |</text>
+</view>
+
+<view>
+  <button type='primary' bindtap='getsysteminfosync'>同步获取</button>
+  <button type='primary' bindtap='getsysteminfo'>异步获取</button>
+</view>
+
+</view>
+
+
+

@@ -1,2 +1,23 @@
 <!--pages/zj5/zj5.wxml-->
-<text>pages/zj5/zj5.wxml</text>
+<include src='../../../components/header.wxml'></include>
+<view class='title'>第五章 微信作业列表</view>
+<view><navigator  url="/pages/zj5/zy1/zy1">1. 变脸游戏</navigator></view>
+<view><navigator  url="/pages/zj5/zy2/zy2">2. 阶乘计算器</navigator></view>
+<view><navigator  url="/pages/zj5/zy3/zy3">3. 基本绘图</navigator></view>
+<view><navigator  url="/pages/zj5/zy4/zy4">4. 参数绘图</navigator></view>
+<view><navigator  url="/pages/zj5/zy5/zy5">5. 改变图形</navigator></view>
+<view><navigator  url="/pages/zj5/zy6/zy6">6. 绘制正弦曲线</navigator></view>
+<view><navigator  url="/pages/zj5/zy7/zy7">7. 自由绘图</navigator></view>
+<view><navigator  url="/pages/zj5/zy8/zy8">8. 动画</navigator></view>
+<view><navigator  url="/pages/zj5/zy9/zy9">9. 照相和摄像</navigator></view>
+<view><navigator  url="/pages/zj5/zy10/zy10">10. 位置和地图</navigator></view>
+<view><navigator  url="/pages/zj5/zy11/zy11">11. 文件操作</navigator></view>
+<view><navigator  url="/pages/zj5/zy12/zy12">12. 数据缓存</navigator></view>
+<view><navigator  url="/pages/zj5/zy13/zy13">13. 网络状态</navigator></view>
+<view><navigator  url="/pages/zj5/zy14/zy14">14. 传感器</navigator></view>
+<view><navigator  url="/pages/zj5/zy15/zy15">15. 扫码和打电话</navigator></view>
+<view><navigator  url="/pages/zj5/zy16/zy16">16. 屏幕亮度</navigator></view>
+<view><navigator  url="/pages/zj5/zy17/zy17">17. 设备系统信息</navigator></view>
+<view><navigator  url="/pages/zj5/zy18/zy18">18. 导航栏</navigator></view>
+<view><navigator  url="/pages/zj5/zy19/zy19">19. 操作菜单</navigator></view>
+<include src='../../../components/footer.wxml'></include>

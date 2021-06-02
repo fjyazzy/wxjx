@@ -1,18 +1,19 @@
 /* 首页移动导航栏 */
-movable-view {
+.mvw {
   display: flex;
   justify-content: left;
   left:10px;
-  height: 60rpx;
+  height: 82rpx;
   width: 1600rpx;
   background: #fee;
   color: #f00;
+  font-size:55rpx;
   white-space: nowrap;
 }
-movable-area {
+.ma {
   display: flex;
   justify-content: center;
-  height: 60rpx;
+  height: 70rpx;
   width: 800rpx;
   margin: 0rpx;
   background-color: #fee; 

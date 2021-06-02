@@ -1,0 +1,26 @@
+<!--pages/zj4/zy10.wxml-->
+<text>pages/zj4/zy10.wxml</text>
+<image src="../../../images/home.png" mode='scaleToFill'></image>
+<view class='box'>
+<view class='title'>考试场次选择</view>
+<view class='hr'></view>
+<form bindsubmit='formsubmit'>
+<view class='linelayout'>
+<text>电子邮箱：</text>
+<input type="text" bindchange="inputmail" name="email" value="{{getemail}}" />
+</view>
+<view class='linelayout'>
+<text>输入密码：</text>
+<input type="password" name="password" value="{{getpwd}}" />
+</view>
+<view class='linelayout'>
+<text>确认密码：</text>
+<input type="password" name="confirm" value="{{getpwdconfirm}}" />
+</view>
+<button type='primary' form-type="submit">登录</button>
+<view>
+<view class="txt">{{showmsg01}}</view>
+<view class="txt">{{showmsg02}}</view>
+</view>
+</form>
+</view>

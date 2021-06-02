@@ -1,0 +1,11 @@
+<!--pages/zj4/zy8/zy8.wxml-->
+<text>pages/zj4/zy8/zy8.wxml</text>
+<view class='box'>
+  <view class='title'>音频展示</view>
+  <audio poster='{{poster}}' name='{{name}}' author='{{author}}'
+        src='{{src}}' id='myaudio' controls loop></audio>
+        <button bindtap='audioplay'>播放</button>
+        <button bindtap='audiopause'>暂停</button>
+        <button bindtap='audio14'>播放时间为14秒</button>
+        <button bindtap='audiostart'>回到开头</button>                        
+</view>

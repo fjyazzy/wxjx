@@ -5,7 +5,7 @@ Page({
    */
   data: {
        imgsrc:"/images/book.png",
-       newlist:['aaaaaaaaaa','bbbbbbbbbb','cccccccc']
+       homeimage:['/images/home.png','/images/home2.png','/images/home3.png']
   },
   tapCat:function(){
     let audio=wx.createInnerAudioContext()

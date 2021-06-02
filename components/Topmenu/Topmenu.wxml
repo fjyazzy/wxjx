@@ -1,9 +1,11 @@
 <!--Topmenu/Topmenu.wxml-->
 <view class="page-section">
-    <movable-area>
-      <movable-view direction="horizontal">
+    <movable-area class='ma'>
+      <movable-view class='mvw' direction="horizontal">
       <navigator wx:for="{{TopMenuList}}" wx:key="index" 
-      url="/pages/category/category?id={{item.mlno}}&title={{item.mlname}}">{{item.mlname}}-</navigator>
+      url="/pages/category/category?id={{item._id}}&title={{item.mlname}}"> 
+       {{item.mlname}} |
+      </navigator>
       </movable-view>
     </movable-area>
 </view>

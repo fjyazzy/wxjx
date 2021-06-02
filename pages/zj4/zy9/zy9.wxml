@@ -1,0 +1,16 @@
+<!--pages/zj4/zy9/zy9.wxml-->
+<text>pages/zj4/zy9/zy9.wxml</text>
+<view class='box'>
+  <view class='title'>视频展示</view>
+  <view class='videolayout'>
+  <!--http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4-->
+  <!--http://vjs.zencdn.net/v/oceans.mp4--> 
+    <video id='myvideo' src='http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4' danmu-list='{{danmulist}}'
+    enable-danmu danmu-btn controls></video>
+  </view>
+</view>
+<view>
+  <view class='view>'>弹幕内容</view>
+  <input bindblur='inputblur' type='text' placeholder='在此输入弹幕内容' />
+  <button type='primary' bindtap='senddanmu'>发送弹幕</button>
+</view>

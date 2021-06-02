@@ -5,4 +5,10 @@
 <view><navigator  url="/pages/zj4/zy2/zy2">2.计算三角形面积</navigator></view>
 <view><navigator  url="/pages/zj4/zy3/zy3">3.设置字体大小和样式</navigator></view>
 <view><navigator  url="/pages/zj4/zy4/zy4">4.滑动条和颜色</navigator></view>
+<view><navigator  url="/pages/zj4/zy5/zy5">5.轮播图</navigator></view>
+<view><navigator  url="/pages/zj4/zy6/zy6">6.个人信息填写</navigator></view>
+<view><navigator  url="/pages/zj4/zy7/zy7">7.图片显示模式</navigator></view>
+<view><navigator  url="/pages/zj4/zy8/zy8">8.音频演示</navigator></view>
+<view><navigator  url="/pages/zj4/zy9/zy9">9.视频演示</navigator></view>
+<view><navigator  url="/pages/zj4/zy10/zy10">10.考试场次选择</navigator></view>
 <include src='../../../components/footer.wxml'></include>

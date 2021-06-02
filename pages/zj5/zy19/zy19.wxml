@@ -1,0 +1,9 @@
+<!--pages/zj5/zy19/zy19.wxml-->
+<text>pages/zj5/zy19/zy19.wxml</text>
+<view class='box'>
+<view class='title'>下拉菜单</view>
+<view>
+  <button type='primary' bindtap='dp'>droplist</button>
+  <view>{{tapindex}}---{{tapitem}}</view>
+</view>
+</view>

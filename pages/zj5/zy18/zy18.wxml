@@ -1,0 +1,12 @@
+<!--pages/zj5/zy18/zy18.wxml-->
+<text>pages/zj5/zy18/zy18.wxml</text>
+<view class='box'>
+<view class='title'>修改导航栏</view>
+<input placeholder='输入导航栏标题' bindblur='inputtitle' />
+<view>
+  <button type='primary' bindtap='szbt'>设置标题</button>
+  <button type='primary' bindtap='szys'>设置颜色</button>
+  <button type='primary' bindtap='jzdh'>加载动画</button>
+  <button type='primary' bindtap='tzdh'>停止动画</button>
+</view>
+</view>

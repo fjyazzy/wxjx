@@ -1,0 +1,12 @@
+<!--pages/zj4/zy7/zy7.wxml-->
+<text>pages/zj4/zy7/zy7.wxml</text>
+<view class='box'>
+  <view class='title'>图片展示</view>
+  <view wx:for='{{imgarray}}' wx:key='i'>
+    <view>{{item.text}}</view>
+    <view class='imglayout'>
+      <image src='{{src}}' mode='{{item.mode}}'></image>
+    </view>
+    --------------------------------------
+  </view>
+</view>

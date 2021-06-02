@@ -1,0 +1,8 @@
+<!--pages/zj6/zy3/zy3.wxml-->
+<text>pages/zj6/zy3/zy3.wxml</text>
+<view>
+    <view bindtap="doQuery">
+      <text>查询记录</text>
+    </view>
+  </view>
+  <view>查询结果:{{fiel1}}</view>

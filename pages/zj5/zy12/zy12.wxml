@@ -1,0 +1,21 @@
+<!--pages/zj5/zy12/zy12.wxml-->
+<view class='box'>
+<view class='title'>数据缓存</view>
+<view>
+  <button type='primary' bindtap='setstorage'>异步存储数据</button>
+  <button type='primary' bindtap='setstoragesync'>同步存储数据</button>
+</view>
+<view>
+  <button type='primary' bindtap='getstorage'>异步获取数据</button>
+  <button type='primary' bindtap='getstoragesync'>同步获取数据</button>
+</view>
+<view>
+  <button type='primary' bindtap='getstorageinfo'>异步缓存数据</button>
+  <button type='primary' bindtap='getstorageinfosync'>同步缓存数据</button>
+</view>
+<view>
+  <button type='primary' bindtap='removestorage'>异步删除数据</button>
+  <button type='primary' bindtap='removestoragesync'>同步删除数据</button>
+</view>
+<view class='fileinfo' hidden='{{hidden}}'><text>{{msg}}</text></view>
+</view>

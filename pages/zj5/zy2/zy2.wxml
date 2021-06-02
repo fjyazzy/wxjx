@@ -1,0 +1,7 @@
+<!--pages/zj5/zy2/zy2.wxml-->
+<text>pages/zj5/zy2/zy2.wxml</text>
+<view class='box'>
+<view class='title'>阶乘计算器</view>
+<input type='number' bindinput='getinput' placeholder='请输入要求阶乘的数' />
+<text>结果为:{{result}}</text>
+</view>

@@ -11,23 +11,30 @@ Page({
     this.getData(options);
   },
   getData: function (options) {
-    var that = this;
-    wx.request({
-      url: app.globalData.usite + '/cmsv1/apis/getPagelist.ashx?mlh=' + options.id,
-      header: { 'content-type': 'applciation/json;charset=UTF-8' },
-      method: 'GET',
-      success: function (res) {
-        var str2 = res.data.substr(1,res.data.length-2)
-        console.log(str2);
-        that.setData({
-          pagelist: JSON.parse(str2),
-        })
-      },
-      fail: function (err) {
-        console.log(err)
-      }
-    });
-    that.setData({
+    const db=wx.cloud.database()
+    db.collection('Pages').where({
+      mlno:options.id
+    }).get({
+        complete:res=>{
+          this.setData({
+          })
+        },
+        success:res=>{
+          this.setData({
+            pagelist:res.data 
+          })
+          console.log('[数据库] [Pages] 成功: ', res)
+        },
+        fail:err=>{
+          wx.showToast({
+            icon:"none",
+            title:'查询失败'
+          })
+        }
+    }
+    )  
+
+    this.setData({
       id: options.id,
       title: options.title
     });
